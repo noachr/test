@@ -1,0 +1,5 @@
+<template name="langChanger">
+  {{#each lang in langList}}
+    <a class="langLink" lang={{lang.code}} style="{{#if isCurrentLang lang.code}}background-color: yellow{{/if}}">{{lang.name}}</a>
+  {{/each}}
+</template>
