@@ -3,8 +3,7 @@ import {TAPi18n} from "meteor/tap:i18n"
 import {Template} from "meteor/templating"
 
 Template.langChanger.events({
-  'click .langLink'(e,b){
-    console.log(this);
+  'click .langLink'(e){
     TAPi18n.setLanguage(e.currentTarget.lang);
   }
 });

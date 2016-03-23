@@ -3,6 +3,6 @@ import {BlazeLayout} from "meteor/kadira:blaze-layout"
 
 FlowRouter.route("/",{
 	action(){
-		BlazeLayout.render("sup")
+		BlazeLayout.render("d3")
 	}
 });
